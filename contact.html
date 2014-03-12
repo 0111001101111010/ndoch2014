@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>National Day of Civic Hacking</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="nav-wrapper">
+    <nav id="nav" class="navbar navbar-default navbar-static" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-scrollspy">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">NDOCH</a>
+        </div>
+        <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">about</a></li>
+            <li><a href="register.html">register</a></li>
+            <li><a href="sponsor.html">sponsor</a></li>
+            <li><a href="faq.html">faq</a></li>
+            <li><a href="challenges.html">challenges</a></li>
+            <li><a href="schedule.html">schedule</a></li>
+            <li><a href="contact.html">contact</a></li>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+</div>
+</body>
+<div class="container">
+<div id="wufoo-z1sjhtgj15v7n8p">
+Fill out my <a href="https://ndoch.wufoo.com/forms/z1sjhtgj15v7n8p">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com" >Wufoo</a></div>
+<script type="text/javascript">var z1sjhtgj15v7n8p;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'ndoch',
+'formHash':'z1sjhtgj15v7n8p',
+'autoResize':true,
+'height':'437',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1sjhtgj15v7n8p = new WufooForm();z1sjhtgj15v7n8p.initialize(options);z1sjhtgj15v7n8p.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+<div>
+<hr>
+<footer>
+    <div class="wrap">
+    <p>created by ... </p>
+    <p>© <a href="stanzh.com">Stanley Zheng</a></p>
+    <p>© <a href="http://codeforhamptonroads.org">Code For Hampton Roads.</a></p>
+    </div>
+</footer>
+<script>
+$(function() {
+    $('#nav-wrapper').height($("#nav").height());
+
+    $('#nav').affix({
+        offset: { top: $('#nav').offset().top }
+    });
+});
+</script>
+</html>
